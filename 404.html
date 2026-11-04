@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <base href="/">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0E1424">
+  <meta name="description" content="Forma Studio secure administrator workspace">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="apple-touch-icon" href="favicon.png">
+  <title>Forma Studio — Admin Workspace</title>
+  <script>
+    (function() {
+      var _d = window.dart || {};
+      if (typeof _d.installStackFrameMapper !== 'function') {
+        _d.installStackFrameMapper = function() {};
+      }
+      window.dart = _d;
+      try {
+        Object.defineProperty(window, 'dart', {
+          configurable: true,
+          enumerable: true,
+          get: function() { return _d; },
+          set: function(v) {
+            _d = v || {};
+            if (typeof _d.installStackFrameMapper !== 'function') {
+              _d.installStackFrameMapper = function() {};
+            }
+          }
+        });
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
+<!-- Last Updated: 2026-10-13 11:20 IST -->
